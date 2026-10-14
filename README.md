@@ -24,6 +24,6 @@ The goal is to identify loss-making segments and model strategic budget realloca
 - **Blended ROAS:**
   ```dax
   ROAS = DIVIDE([Total Revenue], [Total Spend], 0)
-CAC = DIVIDE([Total Spend], [Total Conversions], 0)
-Avg CPC = DIVIDE([Total Spend], SUM(marketing_campaign_dataset[Clicks]), 0)
-CTR % = DIVIDE(SUM(marketing_campaign_dataset[Clicks]), SUM(marketing_campaign_dataset[Impressions]), 0)
+  CAC = DIVIDE([Total Spend], [Total Conversions], 0)
+  Avg CPC = DIVIDE([Total Spend], SUM(marketing_campaign_dataset[Clicks]), 0)
+  CTR % = DIVIDE(SUM(marketing_campaign_dataset[Clicks]), SUM(marketing_campaign_dataset[Impressions]), 0)
